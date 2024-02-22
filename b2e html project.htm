@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head> 
+        <title> B2E York IT HTML Project </title>
+    </head>
+    <style>
+        .image-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-container img{
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        button{
+                background-color: powderblue;
+        }
+        table{
+            width: 100%
+        }
+        th, td{
+            text-align: center;
+            border: 1px solid black;
+        }
+    </style>
+    <body>
+        <h1 style="text-align:center; color:darkblue;"> My First HTML Page </h1>
+        <p>Welcome to My First HTML Page! The photos below caught my eye in the given library. The buttons lead to links that I've been using for a robotics project. The information table at the bottom is about the main character of the novel <i>A Tale for the Time Being</i> by Ruth Ozeki.</p>
+        <hr>
+        <div class="image-container">
+        <img src="https://york.services.cloudsofttest.com/images/york-solutions/Van-Gogh-Wheat-Field.jpg" title="Landscape Painting of a Countryside" alt="Landscape Painting of a Countryside">
+        <img src="https://york.services.cloudsofttest.com/images/york-solutions/Rembrandt-Abraham-and-the-Angels-e1612463241921.jpg" title="Painting of Angels Meeting With Beggars" alt="Old Painting of Angels Meeting With Beggars">
+        </div>
+        <hr>
+        <form class="buttons" target="_blank" type="submit">
+            <button  formaction="https://coolors.co/">Coolors: Color Pallete Generator</button>
+            <button  formaction="https://www.ifixit.com/Device/TomTom_XL">TOMTOM XL Repair Guide</button>
+            <button  formaction="https://www.flickr.com/photos/nasawebbtelescope/albums/with/72177720313923911">James Webb Space Telescope Photo Gallery</button>
+            <button  formaction="https://pomofocus.io/app">Pomodoro Work Timer</button>
+        </form>
+        <hr>
+        <table>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Birthmonth</th>
+            </tr>
+            <tr>
+                <td>Nao</td>
+                <td>Yasutani</td>
+                <td>Tokyo</td>
+                <td>Japan</td>
+                <td>July</td>
+            </tr>
+        </table>
+    </body>
+</html>
